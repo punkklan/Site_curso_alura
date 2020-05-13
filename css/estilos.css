@@ -9,10 +9,10 @@ body {
  /* background: rgb(179, 231, 240);  */
     background-image: url("../imagens/fundo2.jpg"); 
     background-size: 100vw 100vh; 
-    font-family: Arial;
+    font-family: 'Source Code Pro', monospace;
     font-size: 12px;
-    font-variant: small-caps;
-    image-rendering: auto; 
+ /*   font-variant: small-caps;   */
+    image-rendering: auto;  
     height: 100vh;  
 }
 
@@ -78,14 +78,24 @@ a:hover {
 .site-title {
     color: rgb(0, 79, 168);
     text-align: center;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .site-title {
     font-size: 4em ;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(29, 5, 68);
 }
+
 
 .site-subtitle {
     font-style: italic;
+}
+
+.portofilio h2 {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(6, 31, 28);
+    
 }
 
 .img-portfolio {
